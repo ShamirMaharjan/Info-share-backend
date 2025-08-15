@@ -16,7 +16,7 @@ import (
 var collection *mongo.Collection
 
 func main() {
-	fmt.Println("Hello World sage")
+	fmt.Println("Hello World ")
 
 	err := godotenv.Load(".env")
 
